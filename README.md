@@ -15,8 +15,6 @@
 [Quick Start](#-quick-start) •
 [Documentation](#-documentation) •
 [Results](#-results) •
-[Citation](#-citation)
-
 </div>
 
 ---
@@ -32,8 +30,6 @@
 - [Usage](#-usage)
 - [Results](#-results)
 - [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [Citation](#-citation)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
@@ -449,69 +445,6 @@ alzheimers-mri-setnn/
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Install pre-commit hooks
-pre-commit install
-
-# Run tests
-pytest tests/ -v --cov=src
-
-# Format code
-black src/ tests/
-isort src/ tests/
-
-# Lint code
-flake8 src/ tests/
-pylint src/
-```
-
-### Submitting Changes
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📝 Citation
-
-If you use this code or methodology in your research, please cite:
-
-```bibtex
-@article{bhade2025alzheimers,
-  title={Prediction of Alzheimer's Disease Using Stacked Ensemble Transfer Neural Network Model},
-  author={Bhade, Archana W.},
-  journal={Journal of Drug Discovery and Therapeutics},
-  year={2025},
-  publisher={Your Publisher}
-}
-```
-
-**BibTeX for this implementation:**
-
-```bibtex
-@software{alzheimers_setnn_2025,
-  author={Your Name},
-  title={Alzheimer's Disease MRI Classification using SETNN},
-  year={2025},
-  url={https://github.com/yourusername/alzheimers-mri-setnn},
-  version={1.0.0}
-}
-```
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -521,20 +454,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **ADNI**: For providing the neuroimaging dataset
-- **Dr. Archana W. Bhade**: For the original SETNN methodology
 - **TensorFlow/Keras Team**: For the deep learning framework
 - **ImageNet**: For pre-trained model weights
 - **Open Source Community**: For various tools and libraries
-
----
-
-## 📧 Contact
-
-**Your Name** - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
-
-**Project Link**: [https://github.com/yourusername/alzheimers-mri-setnn](https://github.com/yourusername/alzheimers-mri-setnn)
-
-**Portfolio**: [https://yourportfolio.com](https://yourportfolio.com)
 
 ---
 
@@ -546,23 +468,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📊 Project Status
-
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/alzheimers-mri-setnn)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/alzheimers-mri-setnn)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/alzheimers-mri-setnn)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/alzheimers-mri-setnn?style=social)
-
-**Current Version**: 1.0.0  
-**Status**: Active Development  
-**Last Updated**: December 2025
-
----
-
 <div align="center">
 
 **⭐ Star this repository if you find it helpful!**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Shubhangi](https://github.com/ShubhangiLokhande123)
 
 </div>
+
